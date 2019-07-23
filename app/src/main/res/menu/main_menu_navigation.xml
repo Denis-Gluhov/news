@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/actionNews"
+        android:icon="@drawable/ic_outline_list_24px"
+        android:title="Новости"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/actionFavorites"
+        android:icon="@drawable/ic_outline_favorite_24px"
+        android:title="Избранное"
+        app:showAsAction="always"/>
+
+</menu>
